@@ -2,21 +2,6 @@
 TRABALHO DE ESTRUTURA DE DADOS
 ALUNA: GIDIANE FARIAS DE OLIVEIRA
 TURNO: NOITE / 2024.1
-
-ENUNCIADO:
-Um condomínio de apartamentos não possui vagas de garagem para todos os apartamentos. 
-São apenas 10 vagas de garagem. Isso faz com que exista uma fila de espera por vagas. 
-O apartamento é composto de número do ap, nome do proprietário e número da vaga, quando este tem vaga. 
-Quando ele não tem vaga, este número é zero. Implemente uma fila de espera
-que contenha os métodos para adicionar apartamentos na fila, retirar apartamentos 
-informando o número da vaga que este apartamento receberá e um método para imprimir a fila de espera.
-Implemente uma lista encadeada de apartamentos que possuem vagas de garagem.
-Implemente uma função de leberar vaga, informando qual apartamento liberou a vaga. 
-Então o primeiro apartamento da fila de espera, deve sair da fila e assumir o lugar 
-do apartamento que liberou a vaga, na lista encadeada. Este apartamento que liberou a vaga, 
-deve ir para o fim da fila de espera. 
-Alem da entrega do código, este trabalho deve ser apresentado.
-A entrega deve ser via GitHub, envie aqui apenas o link do GitHub contendo o código desenvolvido.
 */
 
 #include <stdio.h>
